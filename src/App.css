@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input, .search select {
+  margin: 0 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.footer {
+  margin-top: 30px;
+}
